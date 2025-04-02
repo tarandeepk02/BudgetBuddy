@@ -31,8 +31,8 @@ Follow these steps to set up and run Budget Buddy on your local server:
    - For LAMP: `/var/www/html`
 4. **Set up the database:**
    - Open [PHPMyAdmin](http://localhost/phpmyadmin).
-   - Create a database named `budgetbuddy`.
-   - Import the `budgetbuddy.sql` file (found inside the `SQL` folder in the package).
+   - Create a database named `budget_buddy`.
+   - Import the `budget_buddy.sql` file.
 5. **Run the project** by accessing it in your browser:
    ```
    http://localhost/BudgetBuddy
