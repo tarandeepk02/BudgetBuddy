@@ -62,7 +62,7 @@ class User extends CI_Controller
             } else {
                 // Set error message and redirect to login page
                 $this->session->set_flashdata("error", "Invalid login details. Please try again.");
-                redirect("login");
+                redirect("user/login");
             }
         } else {
             // Reload the login view with validation errors
